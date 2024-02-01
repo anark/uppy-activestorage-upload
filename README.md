@@ -15,7 +15,7 @@ Then use `ActiveStorageUpload` as an Uppy plugin in your Javascript pack.
 
 ```js
 import Uppy from '@uppy/core'
-import ActiveStorageUpload from '@excid3/uppy-activestorage-upload'
+import ActiveStorageUpload from 'anark/uppy-activestorage-upload'
 
 let uppy = new Uppy(options)
 uppy.use(ActiveStorageUpload, {
@@ -26,9 +26,9 @@ uppy.use(ActiveStorageUpload, {
 ## Installation
 
 ```bash
-yarn add @excid3/uppy-activestorage-upload
+yarn add anark/uppy-activestorage-upload
 # or
-npm install @excid3/uppy-activestorage-upload --save
+npm install anark/uppy-activestorage-upload --save
 ```
 
 We recommend installing from yarn and then using a module bundler such as [esbuild](https://esbuild.github.io/).
